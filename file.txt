@@ -1,0 +1,72 @@
+卷 e 的文件夹 PATH 列表
+卷序列号为 DA18-EBFA
+E:.
+│  .gitignore
+│  faceAlignment.py
+│  faceDetect.py
+│  faceLandmarks.py
+│  faceRecognition.py
+│  file.txt
+│  
+├─.idea
+│      deployment.xml
+│      Dlibface.iml
+│      encodings.xml
+│      misc.xml
+│      modules.xml
+│      workspace.xml
+│      
+├─data
+│  │  test.jpg
+│  │  test_1988.jpg
+│  │  test_1988_1.jpg
+│  │  test_1988_2.jpg
+│  │  test_our.jpg
+│  │  
+│  ├─candidate-faces
+│  │      liushishi.jpg
+│  │      liuyifei.jpg
+│  │      tangyan.jpg
+│  │      tongliya.jpg
+│  │      yangzi.jpg
+│  │      zhaoliying.jpg
+│  │      
+│  └─faces
+│          tangyan.jpg
+│          zhaoliying.jpg
+│          
+├─models
+│      dlib_face_recognition_resnet_model_v1.dat
+│      mmod_human_face_detector.dat
+│      shape_predictor_5_face_landmarks.dat
+│      shape_predictor_68_face_landmarks.dat
+│      
+└─results
+    ├─alignment
+    │      test_1988_0_Align68.jpg
+    │      test_1988_1_Align68.jpg
+    │      test_1988_2_Align68.jpg
+    │      test_1988_3_Align68.jpg
+    │      test_1988_4_Align68.jpg
+    │      test_1988_5_Align68.jpg
+    │      test_our_0_Align68.jpg
+    │      test_our_1_Align68.jpg
+    │      test_our_2_Align68.jpg
+    │      test_our_3_Align68.jpg
+    │      
+    ├─detect
+    │      liushishi_HOG.jpg
+    │      test_1988_HOG.jpg
+    │      test_1988_MMOD.jpg
+    │      test_our_HOG.jpg
+    │      test_our_MMOD.jpg
+    │      
+    ├─landmarks
+    │      test_1988_5Landmarks.jpg
+    │      test_1988_68Landmarks.jpg
+    │      test_our_5Landmarks.jpg
+    │      test_our_68Landmarks.jpg
+    │      
+    └─recongnition
+            recognition_reslut.txt
+            
